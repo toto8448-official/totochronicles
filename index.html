@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toto — big left toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- Profile Picture -->
+            <div class="avatar-wrapper">
+                <img
+                    id="profilePic"
+                    class="avatar"
+                    src=""
+                    alt="toto's profile picture"
+                    loading="lazy"
+                    onerror="this.style.display='none'; document.getElementById('avatarFallback').style.display='flex';"
+                    onload="this.style.display='block'; document.getElementById('avatarFallback').style.display='none';"
+                >
+                <div id="avatarFallback" class="avatar-placeholder" style="display: flex;">
+                    👤
+                </div>
+            </div>
+
+            <h1 class="name">toto</h1>
+            <p class="aliases">aka <strong>big left toe</strong></p>
+            <span class="nationality">🇭🇰 would you believe if i said prc</span>
+
+            <div class="divider"></div>
+
+            <div class="section">
+                <p class="section-label">🎮 gaymes</p>
+                <div class="tag-list">
+                    <span class="tag">😐 square run</span>
+                    <span class="tag">⛏️ minceraft</span>
+                    <span class="tag steam-tag">🎮 vapor (steam if yall no get it)</span>
+                </div>
+            </div>
+
+            <div class="section">
+                <p class="section-label">🔭 ae — astro</p>
+                <div class="telescope-info">
+                    <span class="telescope-icon">🪐</span>
+                    <span>Telescope: <span class="telescope-detail">Celestron Deluxe 80DX</span></span>
+                </div>
+            </div>
+
+            <a id="contactLink" class="contact-btn" href="#" target="_blank" rel="noopener noreferrer">
+                send shit to this guy (no work yet)
+            </a>
+        </div>
+        <p class="footer-note">toto · big left toe · ©2026</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
